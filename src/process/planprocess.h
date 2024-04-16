@@ -1,5 +1,6 @@
 #pragma once
 #include "pnc_map.h"
+using namespace std;
 
 class PlanProcess
 {
