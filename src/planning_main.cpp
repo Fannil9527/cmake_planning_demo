@@ -1,13 +1,18 @@
 #include <iostream>
-#include "process.h"
+#include "planprocess.h"
+#include "show_result.h"
 using namespace std;
 
 int main()
 {
     cout << "Planning start" << endl;
-    Process pro;
+    PlanProcess pro;
     pro.planProcess();
     cout << "Planning end" << endl;
+    cout << "Show graph" << endl;
+
+    ShowResult show;
+    show.drawResult();
 
     return 0;
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "pnc_map.h"
 
-class Process
+class PlanProcess
 {
 public:
     void planProcess();

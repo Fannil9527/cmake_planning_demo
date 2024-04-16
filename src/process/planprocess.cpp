@@ -1,8 +1,8 @@
 #include <iostream>
-#include "process.h"
+#include "planprocess.h"
 using namespace std;
 
-void Process::planProcess()
+void PlanProcess::planProcess()
 {
     cout << "This is planning process." << endl;
     my_map.mapInfo();
