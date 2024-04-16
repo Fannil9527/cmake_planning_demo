@@ -7,6 +7,7 @@ project(planning
 )
 
 set(CMAKE_CXX_STANDARD 17)
+enable_testing()
 
 #set value
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
@@ -26,3 +27,4 @@ endif()
 
 #add sub directory
 add_subdirectory(src)
+add_subdirectory(test/map_test)
